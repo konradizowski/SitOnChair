@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.column {
+    float: left;
+}
+
+.col-3-layout .column {
+    width: 33.33%;
+}
+
+.col-2-layout .column {
+    width: 50%;
+}
+
+.col-2-layout::after,
+.col-3-layout::after {
+    content: "";
+    clear:both;
+    display: block;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+/*-----------------------------------------
+Header
+----------------------------------------------------- */
+
+.site-header {
+    background-color: black;
+    color: white;
+    padding: 15px 0;
+}
+
+.site-header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.site-menu li {
+    display: inline-block;
+}
+
+/*-----------------------------------------
+Hero Section
+----------------------------------------------------- */
+
+.section-hero {
+    padding: 20px 0;
+}
+
+.section-hero .column:nth-child(1) {
+    padding-right: 10px;
+}
+
+.section-hero .column:nth-child(2) {
+    padding-left: 10px;
+}
+
+
+/*-----------------------------------------
+Products Section
+----------------------------------------------------- */
+.section-products {
+    background-color: black;
+    padding: 1em 0;
+    color: white;
+}
+
+
+.section-products .column {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.section-products .col-3-layout {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+/*-----------------------------------------
+Footer
+----------------------------------------------------- */
+
+.site-footer .column:last-child,
+.site-header .column:last-child {
+    text-align: right;
+}
+
