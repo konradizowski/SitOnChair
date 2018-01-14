@@ -189,6 +189,8 @@ body {
     float: left;
     border: blue 1px solid;
     overflow: hidden;
+    text-decoration: none;
+
 }
 
 /*.col-2-layout .column {
@@ -205,6 +207,7 @@ body {
 
 img {
     max-width: 100%;
+
 }
 
 
@@ -236,11 +239,84 @@ Header
     padding: 0 15px;
 }
 .site-menu {
-    padding-left: 170px;
+    padding-left: 680px;
+    border: yellow 1px solid;
 }
+
 
 
 /*-----------------------------------------
 Site Hero
 ----------------------------------------------------- */
 
+.site-hero {
+    background: rgba(251,250,255,1);
+    background: -moz-linear-gradient(top, rgba(251,250,255,1) 0%, rgba(251,250,255,0.97) 61%, rgba(217,216,222,0.95) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(251,250,255,1)), color-stop(61%, rgba(251,250,255,0.97)), color-stop(100%, rgba(217,216,222,0.95)));
+    background: -webkit-linear-gradient(top, rgba(251,250,255,1) 0%, rgba(251,250,255,0.97) 61%, rgba(217,216,222,0.95) 100%);
+}
+
+.move-button {
+    display: inline-block;
+    font-size: 75px;
+    text-decoration: none;
+    color: #27C7AB;
+    position: absolute;
+    top: 260px;
+    font-weight: 300;
+
+}
+
+.hero-description > .move-button {
+    left: 1100px;
+}
+
+.hero-image{
+    width: 500px;
+}
+
+.hero-description {
+    width: 550px;
+    vertical-align: middle;
+}
+
+.site-hero .column {
+    padding-top: 75px;
+    padding-bottom: 80px;
+}
+.hero-description > p {
+    font-size: 14px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    width: 450px;
+    text-align: center;
+    font-weight: 200;
+    word-spacing: 0.5px;
+}
+
+.button-more {
+    width: 265px;
+    height: 52px;
+    border: 1px solid #27C7AB;
+    text-align: center;
+    background-color: #27C7AB;
+    border-radius: 7px;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-weight: 500;
+    line-height: 50px;
+
+}
+
+.name-big {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.name-big > span {
+    color: #27C7AB;
+    font-weight: 600;
+}
