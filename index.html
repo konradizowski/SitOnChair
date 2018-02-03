@@ -30,7 +30,7 @@
                     <div class="column hero-description">
                         <h1 class="name-big">sit <span>on</span> our <span>chair</span></h1>
                         <p class="name-text"><span>Lorem ipsum dolor dit amet enim. Etiam ullamcorper. Suspendisse a pellentesque dui, non felis. Maecenas malesuada elit lectus felis malesuada ultricies. Curabitur et ligual. Ut molestie a, ultricies porta urna.</span></p>
-                        <div class="button-more"></div>
+                        <div class="button-more">Więcej</div>
                     </div>
                     </div>
                 </li>
@@ -59,6 +59,7 @@
         </div>
     </section>
     <section class="site-price">
+        <div class="container">
             <h3>cennik</h3>
             <div class="col-3-layout">
                 <div class="column pricebox">
@@ -107,52 +108,39 @@
                     </div>
                 </div>
             </div>
+        </div>
     </section>
-    <section class="form">
+
+    <section class="formMain">
         <div class="container">
             <div class="col-2-layout">
-                <div class="column">
-                    <form class="register-form">
-                        <div class="form-group">
-                            <label>
-                                <input type="text" class="form-control" placeholder="Imię" name="name">
-                            </label>
-                        </div>
-                        <div class="form-group">
-                            <label>
-                                <input type="email" class="form-control" placeholder="email" name="email">
-                            </label>
-                        </div>
-                        <div class="form-group">
-                            <label>
-                                <textarea class="form-control" placeholder="Wiadomość" name="message"></textarea>
-                            </label>
-                        </div>
+                <div class="contact">
+                    <p class="contactTitle">Kontakt</p>
+                    <form class="contactForm" action="index.html" method="post">
+                        <input type="text" name="name" value="" placeholder="Imię"><br><br>
+                        <input type="email" name="email" value="" placeholder="email"><br><br>
+                        <textarea name="message" rows="8" cols="40" placeholder="Wiadomość"></textarea><br><br>
                     </form>
                 </div>
-                <div class="column">
+                <div class="agree">
                     <img src="images/red_chair.png">
-                    <div class="form-group">
-                        <label class="accept-terms">
-                            <input type="checkbox" checked="checked">
-                            <span class="checkmark"></span>
-                            <span class="agreeterms">Zgadzam się na przetwarzanie danych osobowych</span>
-                        </label>
+                    <div class="contactForm2">
+                        <input type="checkbox" name="agreement" id="agreement" value="">
+                        <label for="agreement">Zgadzam się na przetwarzanie<br>danych osobowych</label>
                     </div>
-                    <div class="form-group">
-                        <button type="submit" class="submit-button">Wyślij</button>
-                    </div>
+                    <div class="contactButton"><a href="#">Wyślij</a></div>
                 </div>
             </div>
         </div>
     </section>
+
     <footer class="site-footer">
         <div class="container">
             <div class="col-3-layout">
                 <div class="column">
                     <span>Copyright 2014 All Rights Reserved - Sit on Chair</span>
                 </div>
-                <nav class="column ">
+                <nav class="column">
                     <ul class="media-menu site-menu">
                         <li><a href="https://www.flickr.com/"><img src="images/flickr.png"></a></li>
                         <li><a href="https://vimeo.com/upgrade?utm_medium=cpc&utm_source=GOOGLE&utm_content=INTL_ROW_Search_Brand_Alone_Alpha_AOB_EN*Vimeo+-+Exact&utm_term=vimeo&utm_campaign=1923&gclid=CjwKCAiA1uHSBRBUEiwAkBCtzSpJSzJdqQsaaz5Ue1WIzLNJJuvVfk5wKGlwYyWbt45Q7_Zn7GnM7BoC8dEQAvD_BwE&gclsrc=aw.ds&dclid=COGgldXc0tgCFdSYGAodH5UPpg"><img src="images/vimeo.png"></a></li>
