@@ -12,11 +12,12 @@ section, header, footer { box-sizing: border-box;  padding: 0;
 body { font-family: "Raleway", sans-serif; }
 
 
-.column {border: blue 1px solid; text-decoration: none; }
+.column {
+  text-decoration: none;
+}
 
 .col-2-layout, .col-3-layout, .col-4-layout {
   height: 100%;
-  border: red 1px solid;
   display: flex;
 }
 
